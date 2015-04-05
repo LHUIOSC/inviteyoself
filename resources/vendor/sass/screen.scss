@@ -23,6 +23,9 @@ header {
 section {
   @include outer-container;
   max-width: em(640);
+  background-color: rgba(200, 200, 200, 0.7);
+  padding: 20px;
+  border-radius: 8px;
 
   form {
     @include span-columns(12);

@@ -1,6 +1,7 @@
 {% extends "templates/base.html" %}
 {% block content %}
-<p>This slack team has open invites! Invite yoself!</p>
+<p>LHUIOSC 是在龍華科技大學成立的資訊社團，我們希望能將 Open Source 的文化在校園深耕，同時以我們的能力改善校園環境！</p>
+<p>歡迎加入我們的 <a href="https://slack.com" target="_blank">Slack</a> 群交流，只要在下方輸入 Email，在 10 分鐘內即可收到邀請信！</p>
 
 {% if not fresh %}
 {% if not valid %}
@@ -9,7 +10,7 @@
 </div>
 {% else %}
 <div class="success">
-  <span>Success! You should receive an invite pretty soon.</span>
+  <span>成功! 你應該會在 10 分鐘內收到邀請。</span>
 </div>
 {% endif %}
 {% endif %}
